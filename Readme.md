@@ -1,7 +1,7 @@
 # Re-run the README generation code after the kernel reset
 
 readme_full_content = """
-# 🔥 Forecast Under Fire 🔍  
+ 
 ### Monthly Armed Robberies in Boston — Time Series Forecasting with ARIMA
 
 ![Boston skyline](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Boston_skyline_from_Logan_Airport.jpg/1280px-Boston_skyline_from_Logan_Airport.jpg)
@@ -34,7 +34,7 @@ readme_full_content = """
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-```bash
+
 git clone https://github.com/yourusername/forecast-under-fire.git
 cd forecast-under-fire
 
