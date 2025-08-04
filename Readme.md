@@ -1,16 +1,10 @@
-# Re-run the README generation code after the kernel reset
 
-readme_full_content = """
- 
-### Monthly Armed Robberies in Boston — Time Series Forecasting with ARIMA
+ ### Monthly Armed Robberies in Boston — Time Series Forecasting with ARIMA
 
-![Boston skyline](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Boston_skyline_from_Logan_Airport.jpg/1280px-Boston_skyline_from_Logan_Airport.jpg)
-
----
 
 ## 📌 Project Overview
 
-**Forecast Under Fire** is a time series forecasting project that analyzes monthly armed robbery incidents in Boston. Using the ARIMA model and walk-forward validation, this project aims to predict short-term future robbery counts, helping city officials or analysts anticipate high-crime periods and make informed decisions.
+This is a time series forecasting project that analyzes monthly armed robbery incidents in Boston. Using the ARIMA model and walk-forward validation, this project aims to predict short-term future robbery counts, helping city officials or analysts anticipate high-crime periods and make informed decisions.
 
 ---
 
@@ -26,23 +20,7 @@ readme_full_content = """
 
 ---
 
-## 📂 Project Structure
-
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-git clone https://github.com/yourusername/forecast-under-fire.git
-cd forecast-under-fire
-
-### 2. Install dependencies
-
-pip install -r requirements.txt
-
-### 3. How It Works
+### How It Works
 Data Load & Split:
 Reads robberies.csv, splits the last 12 months as a validation set.
 
@@ -57,3 +35,16 @@ Makes 1-step-ahead predictions, then updates history with true values.
 
 Evaluation:
 Computes RMSE and visualizes predicted vs actual crime levels.
+
+### 📚 Techniques Used
+ARIMA modeling (statsmodels)
+
+Walk-forward validation
+
+Box-Cox transformation and inverse
+
+Time series split & holdout validation
+
+RMSE for accuracy
+
+Matplotlib for visualization
